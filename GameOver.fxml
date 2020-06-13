@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="500.0" maxWidth="700.0" minHeight="500.0" minWidth="700.0" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GOController">
+   <children>
+      <ImageView fx:id="view" fitHeight="235.0" fitWidth="606.0" layoutX="65.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="quit" layoutX="219.0" layoutY="368.0" mnemonicParsing="false" onAction="#QuitPressed" prefHeight="44.0" prefWidth="236.0" text="Quit Game" />
+      <Label fx:id="result" alignment="CENTER" focusTraversable="false" layoutX="191.0" layoutY="299.0" prefHeight="44.0" prefWidth="292.0" />
+   </children>
+</AnchorPane>
